@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font: 15px sans-serif; */
+}
+.p-wrapper{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+.project{
+    border: 2px solid teal;
+    padding: 10px;
+    border-radius:20px ;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    /* text-align: center; */
+}
+.project2{
+    flex-direction: row-reverse;
+}
+.poster{
+    /* border:1px solid; */
+    border-radius: 10px;
+    /* width: 100%; */
+    flex: 1;
+}
+.poster>img{
+    width: 100%;
+    height: 90%;
+    /* border:1px solid; */
+    /* border-radius: 10px; */
+}
+.projectDetail{
+    flex: 1;
+}
+.projectDetail>h2{
+    text-align: center;
+    margin: 5px 0;
+}
+.projectDetail>p{
+    line-height: 1.5rem;
+    margin: 10px 0 ;
+}
+.tech{
+    display: flex;
+    align-items: center;
+}
+.tech > * {
+    margin-right: 15px;
+}
+
+.codeLink{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}
+.codeLink>div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0.5rem;
+    font:600 16px sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 250ms ease-in-out;
+}
+.codeLink>div:hover{
+    transform: scale(1.2);
+}
+.deploy{
+    border: 2px solid teal;
+    background-color: teal;  
+}
+.git{
+    border:2px solid;
+    background-color: black;
+}
+@media screen and (max-width:700px) {
+.project{
+    flex-direction: column;
+}
+    
+}

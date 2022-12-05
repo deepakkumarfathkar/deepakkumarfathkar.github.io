@@ -1,0 +1,71 @@
+.skills_sections{
+     background-color: whitesmoke;
+     padding-top: 30px ;
+     margin: 0;
+}
+.skillsbg{
+    background-color: #fff;
+}
+.skills_sections>p{
+    text-align: center;
+    font: 600 40px sans-serif;
+    /* margin-top:20px; */
+}
+.cards{
+    /* border: 2px dashed green; */
+    width: 80vw;
+    margin: 20px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    justify-content: space-evenly;
+   
+}
+.card{
+    border: 5px solid teal;
+    height: 150px;
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: rgba(50, 50, 50, 0.278) 0px 10px 18px 0px;
+    /* transition: 200ms all ease-in-out; */
+}
+.card:hover{
+    
+    /* animation: shake 500ms  ease-in-out; */
+    transform: translateY(5px);
+    background-color: white; 
+}
+.card>img{
+    width: 70%;
+    transition: all 500ms ease-in-out;
+}
+
+.card>p{
+    font: 500 25px sans-serif;
+   
+    transition: all 500ms ease-in;
+}
+.card3>img{
+    border-radius: 5px;
+}
+@keyframes shake {
+        0% { transform: translateX(0) }
+        25% { transform: translateX(10px) }
+        50% { transform: translateX(-10px) }
+        75% { transform: translateX(10px) }
+        100% { transform: translateX(0) }
+       
+    
+}
+@media screen and  (max-width:700px) {
+    .cards{
+    grid-template-columns: repeat(2,200px);
+
+    }
+    
+}
