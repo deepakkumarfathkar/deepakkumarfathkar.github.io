@@ -14,7 +14,8 @@ export default function Gitstats() {
                         alt="Github Contributions" />
                 </div>
                 <div class="github-stat">
-                    <GitHubCalendar username="deepakkumarfathkar" />
+                    <img src="https://activity-graph.herokuapp.com/graph?username=Anshul-Singla&bg_color=ffffff&color=000080&line=138808&point=ff9933&area=true"
+                        alt="Github Graph" />
                 </div>
             </div>
         </div>
