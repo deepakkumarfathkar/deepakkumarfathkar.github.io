@@ -22,8 +22,8 @@ const Projects = () => {
       description:"NORDSTORM is a online shoping website where you can purchase or sell products like cloths, bueaty, and other accesory. Lifestyle's inventory consists of several national and international brands, and its product categories include Indian and western apparels, footwear, handbags, beauty products, and fashion accessories for men, women, and children.",
       tech_stack:[<DiReact color='#61DBFB' size='2rem' /> , <SiChakraui color='teal' size='2rem' /> , <SiBootstrap color='#563d7c' size='2rem' /> ,<SiJavascript size='2rem' color='#F0DB4F' /> , <SiCss3 size='2rem' color='#264de4' />
       , <AiFillHtml5 color='#e34c26' size='2rem'/>],
-      git_link:'https://dreamlaza-shopper.netlify.app/',
-      deploy_link:'',
+      git_link:'https://github.com/deepakkumarfathkar/Dreamlaza-Shopper',
+      deploy_link:'https://dreamlaza-shopper.netlify.app/',
       animation:'fade-right'
     },
     {
