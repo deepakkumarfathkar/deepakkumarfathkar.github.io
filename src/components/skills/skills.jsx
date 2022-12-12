@@ -1,6 +1,6 @@
 import './skills.style.css' ;
 import {SiExpress} from 'react-icons/si'
-import {AiFillHtml5} from 'react-icons/ai'
+// import {AiFillHtml5} from 'react-icons/ai'
 import Aos from 'aos'
 import "aos/dist/aos.css";
 import { useEffect } from 'react';

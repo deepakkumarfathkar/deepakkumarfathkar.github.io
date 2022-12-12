@@ -32,13 +32,13 @@
     justify-content: space-evenly;
     list-style: none;
 }
-.n-list>ul>li{
+.n-list>ul>a>li{
     font: 500 20px sans-serif ;
     cursor: pointer;
     padding: 5px 1rem;
     border-radius: 20px;
 }
-.n-list>ul>li:hover{
+.n-list>ul>a>li:hover{
     background-color: rgba(0, 128, 128, 0.689);
     color: #fff;
     /* box-shadow: 0 1px 7px 10px teal; */
