@@ -17,7 +17,7 @@ const ProfileComponent = ()=>{
                     <h1 className='typist' >FullStack Web Developer</h1>
                     <p>An enthusiastic Full Stack Web Developer with a strong set of technical as well as non-technical skills and a dedication towards creating useful and interactive web applications.</p>
                     <div className='resume' onClick={()=>{
-                        window.open('#')
+                        window.open('https://drive.google.com/file/d/1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR/view?usp=share_link')
                     }} > 
                         Resume
                     </div>
