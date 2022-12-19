@@ -2,8 +2,8 @@ import './projects.style.css';
 import Aos from 'aos'
 import "aos/dist/aos.css";
 import kindmealPoster from './port.png';
-import lifestylePoster from './port.png';
-import apolloPoster from './port.png';
+import lifestylePoster from './proj2.png';
+import apolloPoster from './proj3.png';
 import {SiBootstrap , SiChakraui , SiJavascript , SiCss3} from 'react-icons/si'
 import {DiReact} from 'react-icons/di'
 import {AiFillHtml5 , AiFillGithub} from 'react-icons/ai';
@@ -29,23 +29,23 @@ const Projects = () => {
     {
       title:"Project-2",
       poster_url:lifestylePoster,
-      name:"NORDSTORM.COM (CLONE)",
-      description:"NORDSTORM is a online shoping website where you can purchase or sell products like cloths, bueaty, and other accesory. Lifestyle's inventory consists of several national and international brands, and its product categories include Indian and western apparels, footwear, handbags, beauty products, and fashion accessories for men, women, and children.",
+      name:"SEMRUSH.COM (CLONE)",
+      description:"It is the only software which enables marketing professionals to build, manage, and measure campaigns across all channels to improve their online visibility. Semrush is your digital team member—your analytics buddy, your mentor, your safety net, and a compass to new markets",
       tech_stack:[<SiJavascript size='2rem' color='#F0DB4F' /> , <SiBootstrap color='#563d7c' size='2rem' /> , <SiCss3 size='2rem' color='#264de4' />
       , <AiFillHtml5 color='#e34c26' size='2rem'/>],
-      git_link:'https://github.com/deepakkumarfathkar/Dreamlaza-Shopper',
-      deploy_link:'https://dreamlaza-shopper.netlify.app/',
+      git_link:'https://github.com/deepakkumarfathkar/SEMRUSH.COM_CLONE',
+      deploy_link:'https://sunny-zabaione-bf8058.netlify.app/',
       animation:'fade'
     },
     {
       title:"Project-3",
       poster_url:apolloPoster,
-      name:"NORDSTORM.COM (CLONE)",
-      description:"NORDSTORM is a online shoping website where you can purchase or sell products like cloths, bueaty, and other accesory. Lifestyle's inventory consists of several national and international brands, and its product categories include Indian and western apparels, footwear, handbags, beauty products, and fashion accessories for men, women, and children.",
+      name:"MAILCHIMP.COM (CLONE)",
+      description:"This website is clone of Mailchimp and it will guide your business with the right marketing & sales tools. also, this website is fully responsive and five people collaborated on the project, which was finished in five days.",
       tech_stack:[<SiJavascript size='2rem' color='#F0DB4F' /> , <SiBootstrap color='#563d7c' size='2rem' /> , <SiCss3 size='2rem' color='#264de4' />
       , <AiFillHtml5 color='#e34c26' size='2rem'/>],
-      git_link:'https://github.com/deepakkumarfathkar/Dreamlaza-Shopper',
-      deploy_link:'https://dreamlaza-shopper.netlify.app/',
+      git_link:'https://github.com/shivamsherje/delightful-animal-1301/tree/main/mailchimp',
+      deploy_link:'https://rad-semolina-cd66f1.netlify.app/',
       animation:'fade-left'
     },
 
