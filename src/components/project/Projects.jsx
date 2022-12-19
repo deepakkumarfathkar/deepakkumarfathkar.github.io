@@ -42,7 +42,7 @@ const Projects = () => {
       poster_url:apolloPoster,
       name:"MAILCHIMP.COM (CLONE)",
       description:"This website is clone of Mailchimp and it will guide your business with the right marketing & sales tools. also, this website is fully responsive and five people collaborated on the project, which was finished in five days.",
-      tech_stack:[<SiJavascript size='2rem' color='#F0DB4F' /> , <SiBootstrap color='#563d7c' size='2rem' /> , <SiCss3 size='2rem' color='#264de4' />
+      tech_stack:[<DiReact color='#61DBFB' size='2rem' /> , <SiChakraui color='teal' size='2rem' /> , <SiBootstrap color='#563d7c' size='2rem' /> ,<SiJavascript size='2rem' color='#F0DB4F' /> , <SiCss3 size='2rem' color='#264de4' />
       , <AiFillHtml5 color='#e34c26' size='2rem'/>],
       git_link:'https://github.com/shivamsherje/delightful-animal-1301/tree/main/mailchimp',
       deploy_link:'https://rad-semolina-cd66f1.netlify.app/',
