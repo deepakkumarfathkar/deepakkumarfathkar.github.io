@@ -69,7 +69,7 @@
 }
 .resume:hover::before{
     
-    width: 150px;
+    width: 180px;
     border-radius: 20px;
     text-align: left;
     visibility: visible;

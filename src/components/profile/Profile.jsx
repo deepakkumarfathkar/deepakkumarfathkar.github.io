@@ -19,7 +19,7 @@ const ProfileComponent = ()=>{
                     <div className='resume' onClick={()=>{
                         window.open('https://drive.google.com/file/d/1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR/view?usp=share_link')
                     }} > 
-                        Resume
+                        View Resume
                     </div>
                     {/* <a href="" download='' ></a> */}
                     <div>
