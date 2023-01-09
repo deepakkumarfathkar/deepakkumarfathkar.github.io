@@ -15,7 +15,7 @@ import { DiReact } from "react-icons/di";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { RiExternalLinkLine } from "react-icons/ri";
 import { useEffect } from "react";
-import { Box } from "@chakra-ui/react";
+import { Box,Heading } from "@chakra-ui/react";
 
 const Projects = () => {
   useEffect(() => {
@@ -116,10 +116,10 @@ const ProjectCard = ({
         <img src={poster_url} alt={name} />
       </div>
       <div className="projectDetail">
-        <h2>{name}</h2>
+        <Heading as="h2">{name}</Heading>
         <p>{description}</p>
         <div className="tech">
-          <h3>Tech Stack:</h3>
+          <Heading as="h3">Tech Stack:</Heading>
           {tech_stack.map((el) => el)}
         </div>
         <div className="codeLink">
