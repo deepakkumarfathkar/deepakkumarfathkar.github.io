@@ -4,10 +4,10 @@ import { IconContext } from "react-icons";
 import "./Profile.style.css";
 import profilePic from "./dp.jpg";
 import Typist from "react-typist";
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 const ProfileComponent = () => {
   return (
-    <div className="profile-wrapper">
+    <Box w="100%" className="profile-wrapper">
       <div className="profile-container">
         <div className="leftBio">
           <Heading as="h1">
@@ -70,7 +70,7 @@ const ProfileComponent = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Box>
   );
 };
 export default ProfileComponent;

@@ -1,6 +1,6 @@
 .n-wrapper {
-  width: 100%;
-  display: flex;
+    display: flex;
+    width: 100%;
   /* justify-content: space-around; */
   align-items: center;
   border-bottom: 2px solid rgba(62, 59, 59, 0.697);
@@ -60,7 +60,42 @@
   .hamburger {
     display: block;
   }
-  .n-wrapper{
+  /* .n-wrapper{
     min-width: fit-content;
-  }
+  } */
+}
+
+@media only screen and (max-width: 1046px) and (min-width: 941px)  {
+    .logo>h2{
+
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 940px) and (min-width: 770px)  {
+    .logo>h2{
+
+        font-size: 20px;
+    }
+
+    .n-list > ul > a > li {
+        font: 400 18px sans-serif;
+        cursor: pointer;
+        padding: 3px 1rem;
+        border-radius: 12px;
+      }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 701px)  {
+    .logo>h2{
+
+        font-size: 18px;
+    }
+
+    .n-list > ul > a > li {
+        font: 400 15px sans-serif;
+        cursor: pointer;
+        padding: 2px 1rem;
+        border-radius: 10px;
+      }
 }

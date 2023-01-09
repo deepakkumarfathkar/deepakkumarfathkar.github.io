@@ -5,7 +5,7 @@ import GitHubCalendar from "react-github-calendar";
 import "./GitCalender.style.css";
 export default function Gitstats() {
   return (
-    <section class="github-st" id="github-">
+    <section class="github-st" id="github">
       <div id="github-stats">
         <div class="container">
           <Heading as="h1">Github Stats</Heading>

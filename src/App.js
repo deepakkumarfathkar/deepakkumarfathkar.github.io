@@ -9,10 +9,11 @@ import Contact from './components/contact/Contact';
 import Projects from './components/project/Projects';
 // import GithubCalendar from './components/git_calender/GitCalender';
 import Gitstats from './components/git_calender/GitCalender';
+import { Box } from '@chakra-ui/react';
 
 function App() {
   return (
-    <div className="App">
+    <Box w="100%">
       <Navbar/>
       <ProfileComponent/>
       <About/> 
@@ -21,7 +22,7 @@ function App() {
       <Projects/>
       <Gitstats/>
       <Contact/>
-    </div>
+    </Box>
   );
 }
 

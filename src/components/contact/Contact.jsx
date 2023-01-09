@@ -3,11 +3,11 @@ import { SiGmail} from 'react-icons/si'
 import {IoMdCall} from 'react-icons/io'
 import { IconContext } from "react-icons";
 import './contact.style.css';
-import { Heading } from '@chakra-ui/react';
+import { Box, Heading } from '@chakra-ui/react';
 
 const Contact = () => {
     return (
-        <div className="c-wrapper">
+        <Box w={"100%"} className="c-wrapper">
                 <p className='c-caption'>My inbox is always open, whether you have a question <p> or </p> just want to know me or even just to say hi... </p>
             <div className="c-container">
                 <div className="contact_left">
@@ -53,7 +53,7 @@ const Contact = () => {
                 </div> */}
             </div>
             
-        </div>
+        </Box>
     )
 }
 export default Contact;

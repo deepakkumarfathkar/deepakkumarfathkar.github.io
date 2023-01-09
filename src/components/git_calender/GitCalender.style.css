@@ -61,3 +61,7 @@
 .github-stat:hover img {
     transform: scale(1.1);
 }
+
+#github{
+    width: 100%;
+}

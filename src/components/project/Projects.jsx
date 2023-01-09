@@ -15,6 +15,7 @@ import { DiReact } from "react-icons/di";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { RiExternalLinkLine } from "react-icons/ri";
 import { useEffect } from "react";
+import { Box } from "@chakra-ui/react";
 
 const Projects = () => {
   useEffect(() => {
@@ -76,7 +77,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="p-wrapper">
+    <Box w={"100%"} className="p-wrapper">
       {projects.map((el, i) => (
         <ProjectCard
           key={el.title}
@@ -90,7 +91,7 @@ const Projects = () => {
           deploy_link={el.deploy_link}
         />
       ))}
-    </div>
+    </Box>
   );
 };
 const ProjectCard = ({
