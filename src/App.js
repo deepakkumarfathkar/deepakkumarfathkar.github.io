@@ -22,8 +22,8 @@ function App() {
       <Skills/>
       <Tools/>
       <Projects/>
-      <Contact/>
       <Gitstats/>
+      <Contact/>
     </div>
   );
 }
