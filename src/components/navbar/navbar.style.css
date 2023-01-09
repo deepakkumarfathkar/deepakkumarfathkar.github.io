@@ -41,8 +41,8 @@
 .n-list > ul > a > li {
   font: 500 20px sans-serif;
   cursor: pointer;
-  padding: 5px 1rem;
-  border-radius: 20px;
+  padding: 4px 1rem;
+  border-radius: 15px;
 }
 .n-list > ul > a > li:hover {
   background-color: rgba(0, 128, 128, 0.689);
@@ -63,16 +63,4 @@
   .n-wrapper{
     min-width: fit-content;
   }
-}
-
-@media screen and (max-width: 1000px) {
-    .n-list > ul > a > li{
-      font: 500 14px sans-serif;
-    }
-    .logo{
-        font-size: 14px;
-    }
-    .n-wrapper{
-        min-width: fit-content;
-      }
 }

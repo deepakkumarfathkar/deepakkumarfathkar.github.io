@@ -3,6 +3,7 @@ import { SiGmail} from 'react-icons/si'
 import {IoMdCall} from 'react-icons/io'
 import { IconContext } from "react-icons";
 import './contact.style.css';
+import { Heading } from '@chakra-ui/react';
 
 const Contact = () => {
     return (
@@ -10,7 +11,7 @@ const Contact = () => {
                 <p className='c-caption'>My inbox is always open, whether you have a question <p> or </p> just want to know me or even just to say hi... </p>
             <div className="c-container">
                 <div className="contact_left">
-                    <h2>Contact Me</h2>
+                    <Heading as="h2">Contact Me</Heading>
                     <div className="contact-i" onClick={()=>{window.open('https://github.com/deepakkumarfathkar')}}>
                         <AiFillGithub size='1.5rem'  />
                         <p> Deepak Kumar Fathkar</p>

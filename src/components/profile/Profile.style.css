@@ -58,7 +58,7 @@
     top: 1px;
     left: -20px;
     width: 30px;
-    height: 30px;
+    height: 35px;
     z-index:-1 ;
     transition: all 400ms ease-in;
     text-align: left;
@@ -69,7 +69,7 @@
 }
 .resume:hover::before{
     
-    width: 180px;
+    width: 188px;
     border-radius: 20px;
     text-align: left;
     visibility: visible;

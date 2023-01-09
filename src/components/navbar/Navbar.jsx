@@ -2,13 +2,14 @@
 import "./navbar.style.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-scroll";
+import { Heading } from "@chakra-ui/react";
 const Navbar = () => {
   return (
     <div className="n-wrapper">
       <div className="n-leftSide">
         <div className="logo">
           {/* <img src={logo}  /> */}
-          <h2>Deepak Kumar Fathkar</h2>
+          <Heading as="h2">Deepak Kumar Fathkar</Heading>
         </div>
       </div>
       <div className="n-rightSide">

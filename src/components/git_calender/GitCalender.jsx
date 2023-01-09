@@ -1,3 +1,4 @@
+import { Heading } from "@chakra-ui/react";
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 // import { Row } from "react-bootstrap";
@@ -7,7 +8,7 @@ export default function Gitstats() {
     <section class="github-st" id="github-">
       <div id="github-stats">
         <div class="container">
-          <h1 class="title">Github Stats</h1>
+          <Heading as="h1">Github Stats</Heading>
           <div class="github-stats-list">
             <div class="github-stat">
               <img

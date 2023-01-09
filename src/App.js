@@ -13,9 +13,6 @@ import Gitstats from './components/git_calender/GitCalender';
 function App() {
   return (
     <div className="App">
-      {/* <h1 style={{
-        textAlign:'center'
-      }}>LIFE IS AWESOME....</h1> */}
       <Navbar/>
       <ProfileComponent/>
       <About/> 
