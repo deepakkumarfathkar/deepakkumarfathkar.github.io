@@ -21,7 +21,12 @@
     /* border: 2px dashed green; */
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 10px;
 } 
+.resume-btn{
+    text-decoration: none;
+    color: black;
+}
 
 .n-rightSide{
     flex: 1;

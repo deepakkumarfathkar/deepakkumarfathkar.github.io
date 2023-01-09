@@ -63,6 +63,13 @@ const Navbar = () => {
               {" "}
               <li>Contact</li>
             </Link>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR"
+              className="resume-btn"
+            >
+              {" "}
+              <li>Resume</li>
+            </a>
           </ul>
         </div>
       </div>
