@@ -37,7 +37,7 @@ const Projects = () => {
         <AiFillHtml5 color="#e34c26" size="2rem" />,
       ],
       git_link: "https://github.com/deepakkumarfathkar/Dreamlaza-Shopper",
-      deploy_link: "https://dreamlaza-shopper.netlify.app/",
+      deploy_link: "https://drive.google.com/file/d/191cnJcpztJDb-wGyYu2hHWjPqwcQJInu/view?usp=sharing",
       animation: "fade-right",
     },
     {
