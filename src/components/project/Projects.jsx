@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import kindmealPoster from "./port.png";
 import lifestylePoster from "./proj2.png";
 import apolloPoster from "./proj3.png";
+import project4 from "./project4.png"
 import {
   SiBootstrap,
   SiChakraui,
@@ -77,7 +78,7 @@ const Projects = () => {
     },
     {
       title: "Project-4",
-      poster_url: apolloPoster,
+      poster_url: project4,
       name: "TOPIC BOARD",
       description:
         "About Topic Board is a app where you can add like and delete tasks its like a Todo app.",
