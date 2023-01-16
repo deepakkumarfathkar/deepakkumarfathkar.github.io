@@ -83,6 +83,13 @@
     border:2px solid;
     background-color: black;
 }
+.project-head{
+    text-align: center;
+    font: 600 40px sans-serif;
+    margin-top: 10px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
 @media screen and (max-width:700px) {
 .project{
     flex-direction: column;

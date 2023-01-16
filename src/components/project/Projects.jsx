@@ -16,7 +16,7 @@ import { DiReact } from "react-icons/di";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { RiExternalLinkLine } from "react-icons/ri";
 import { useEffect } from "react";
-import { Box,Heading } from "@chakra-ui/react";
+import { Box,Heading, Text } from "@chakra-ui/react";
 
 const Projects = () => {
   useEffect(() => {
@@ -98,6 +98,7 @@ const Projects = () => {
   ];
   return (
     <Box w={"100%"} className="p-wrapper">
+      <p className="project-head">Projects</p>
       {projects.map((el, i) => (
         <ProjectCard
           key={el.title}
