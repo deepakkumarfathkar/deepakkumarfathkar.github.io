@@ -73,6 +73,25 @@ const Projects = () => {
       git_link:
         "https://github.com/shivamsherje/delightful-animal-1301/tree/main/mailchimp",
       deploy_link: "https://rad-semolina-cd66f1.netlify.app/",
+      animation: "fade",
+    },
+    {
+      title: "Project-4",
+      poster_url: apolloPoster,
+      name: "TOPIC BOARD",
+      description:
+        "About Topic Board is a app where you can add like and delete tasks its like a Todo app.",
+      tech_stack: [
+        <DiReact color="#61DBFB" size="2rem" />,
+        <SiChakraui color="teal" size="2rem" />,
+        <SiBootstrap color="#563d7c" size="2rem" />,
+        <SiJavascript size="2rem" color="#F0DB4F" />,
+        <SiCss3 size="2rem" color="#264de4" />,
+        <AiFillHtml5 color="#e34c26" size="2rem" />,
+      ],
+      git_link:
+        "https://github.com/deepakkumarfathkar/TopicBoard",
+      deploy_link: "https://topic-board.vercel.app/",
       animation: "fade-left",
     },
   ];
