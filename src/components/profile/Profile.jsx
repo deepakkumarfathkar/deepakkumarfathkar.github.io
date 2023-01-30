@@ -27,6 +27,7 @@ const ProfileComponent = () => {
           </Text>
           <div
             className="resume"
+            href="https://drive.google.com/uc?export=download&id=1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR"
             onClick={() => {
               window.open(
                 "https://drive.google.com/file/d/1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR/view?usp=share_link"

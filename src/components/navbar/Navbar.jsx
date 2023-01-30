@@ -67,6 +67,11 @@ const Navbar = () => {
             <a
               href="https://drive.google.com/uc?export=download&id=1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR"
               className="resume-btn"
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR/view?usp=share_link"
+                );
+              }}
             >
               {" "}
               <li>Resume</li>
