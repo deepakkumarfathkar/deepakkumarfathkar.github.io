@@ -2,8 +2,8 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
 import { IconContext } from "react-icons";
 import "./Profile.style.css";
-import profilePic from "./dp.jpg";
-import Typist from "react-typist";
+import profilePic from "./dp.JPG";
+// import Typist from "react-typist";
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 const ProfileComponent = () => {
   return (
@@ -27,14 +27,15 @@ const ProfileComponent = () => {
           </Text>
           <div
             className="resume"
-            href="https://drive.google.com/uc?export=download&id=1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR"
             onClick={() => {
               window.open(
                 "https://drive.google.com/file/d/1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR/view?usp=share_link"
               );
             }}
           >
-            View Resume
+            <a href="https://drive.google.com/uc?export=download&id=1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR">
+              View Resume
+            </a>
           </div>
           <Flex>
             <IconContext.Provider value={{ className: "git-icon" }}>
