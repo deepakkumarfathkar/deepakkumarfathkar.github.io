@@ -11,8 +11,8 @@ const ProfileComponent = () => {
       <div className="profile-container">
         <div className="leftBio">
           <Heading as="h1">
-            Hi{" "}
-            <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/waving-hand_1f44b.png" />{" "}
+            Hi
+            <img src="https://media.tenor.com/yWSRmymbuBkAAAAM/waving-hi.gif" />
           </Heading>
           <Heading as="h1">I am Deepak Kumar Fathkar</Heading>
           {/* <Typist>
@@ -29,11 +29,11 @@ const ProfileComponent = () => {
             className="resume"
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR/view?usp=share_link"
+                "https://drive.google.com/file/d/1UXzaRdcHcH9QbODH3DyEZ7Fm0XcUchdo/view?usp=share_link"
               );
             }}
           >
-            <a href="https://drive.google.com/uc?export=download&id=1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR">
+            <a href="https://drive.google.com/uc?export=download&id=1UXzaRdcHcH9QbODH3DyEZ7Fm0XcUchdo">
               View Resume
             </a>
           </div>
