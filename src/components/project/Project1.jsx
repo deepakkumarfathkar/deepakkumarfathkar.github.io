@@ -15,9 +15,11 @@ import {
   SiJavascript,
   SiCss3,
   SiHtml5,
+  SiReact,
 } from "react-icons/si";
 import { DiReact } from "react-icons/di";
 import { AiFillHtml5 } from "react-icons/ai";
+import { RiExternalLinkLine } from "react-icons/ri";
 import kindmealPoster from "./port.png";
 import lifestylePoster from "./proj2.png";
 import apolloPoster from "./proj3.png";
@@ -69,12 +71,12 @@ const Project1 = () => {
                 <Heading as={"h2"} fontWeight={"bold"}>
                   Tech stack:
                 </Heading>
-                <DiReact color="#61DBFB" size="2rem" />
+                <SiReact color="#61DBFB" size="2rem" />
                 <SiChakraui color="teal" size="2rem" />
                 {/* <SiBootstrap color="#563d7c" size="2rem" /> */}
                 <SiJavascript size="2rem" color="#F0DB4F" />
                 <SiCss3 size="2rem" color="#264de4" />
-                <AiFillHtml5 color="#e34c26" size="2rem" />
+                <SiHtml5 color="#e34c26" size="2rem" />
               </Flex>
               <Link
                 onClick={() =>
@@ -91,7 +93,10 @@ const Project1 = () => {
                   mb="15px"
                   bg="Teal"
                 >
-                  Website
+                  <Flex gap={2}>
+                    <Text>Website</Text>
+                    <RiExternalLinkLine />
+                  </Flex>
                 </Button>
               </Link>
               <Link
@@ -110,8 +115,10 @@ const Project1 = () => {
                   ml="10px"
                   mb="15px"
                 >
-                  {" "}
-                  Github <Icon as={BsGithub} />
+                  <Flex gap={2}>
+                    <Text>Github</Text>
+                    <Icon as={BsGithub} />
+                  </Flex>
                 </Button>
               </Link>
             </div>
@@ -152,7 +159,7 @@ const Project1 = () => {
                 <SiBootstrap color="#563d7c" size="2rem" />
                 <SiJavascript size="2rem" color="#F0DB4F" />
                 <SiCss3 size="2rem" color="#264de4" />
-                <AiFillHtml5 color="#e34c26" size="2rem" />
+                <SiHtml5 color="#e34c26" size="2rem" />
               </Flex>
               <Link
                 onClick={() =>
@@ -167,7 +174,10 @@ const Project1 = () => {
                   mb="15px"
                   bg="Teal"
                 >
-                  Website
+                  <Flex gap={2}>
+                    <Text>Website</Text>
+                    <RiExternalLinkLine />
+                  </Flex>
                 </Button>
               </Link>
               <Link
@@ -187,7 +197,10 @@ const Project1 = () => {
                   mb="15px"
                 >
                   {" "}
-                  Github <Icon as={BsGithub} />
+                  <Flex gap={2}>
+                    <Text>Github</Text>
+                    <Icon as={BsGithub} />
+                  </Flex>
                 </Button>
               </Link>
             </div>
@@ -222,12 +235,12 @@ const Project1 = () => {
                 <Heading as={"h2"} fontWeight={"bold"}>
                   Tech stack:
                 </Heading>
-                <DiReact color="#61DBFB" size="2rem" />
+                <SiReact color="#61DBFB" size="2rem" />
                 <SiChakraui color="teal" size="2rem" />
                 {/* <SiBootstrap color="#563d7c" size="2rem" /> */}
                 <SiJavascript size="2rem" color="#F0DB4F" />
                 <SiCss3 size="2rem" color="#264de4" />
-                <AiFillHtml5 color="#e34c26" size="2rem" />
+                <SiHtml5 color="#e34c26" size="2rem" />
               </Flex>
               <Link
                 onClick={() =>
@@ -242,7 +255,10 @@ const Project1 = () => {
                   mb="15px"
                   bg="Teal"
                 >
-                  Website
+                  <Flex gap={2}>
+                    <Text>Website</Text>
+                    <RiExternalLinkLine />
+                  </Flex>
                 </Button>
               </Link>
               <Link
@@ -261,8 +277,10 @@ const Project1 = () => {
                   ml="10px"
                   mb="15px"
                 >
-                  {" "}
-                  Github <Icon as={BsGithub} />
+                  <Flex gap={2}>
+                    <Text>Github</Text>
+                    <Icon as={BsGithub} />
+                  </Flex>
                 </Button>
               </Link>
             </div>
@@ -296,12 +314,12 @@ const Project1 = () => {
                 <Heading as={"h2"} fontWeight={"bold"}>
                   Tech stack:
                 </Heading>
-                <DiReact color="#61DBFB" size="2rem" />
+                <SiReact color="#61DBFB" size="2rem" />
                 <SiChakraui color="teal" size="2rem" />
                 <SiBootstrap color="#563d7c" size="2rem" />
                 <SiJavascript size="2rem" color="#F0DB4F" />
                 <SiCss3 size="2rem" color="#264de4" />
-                <AiFillHtml5 color="#e34c26" size="2rem" />
+                <SiHtml5 color="#e34c26" size="2rem" />
               </Flex>
               <Link
                 onClick={() =>
@@ -316,7 +334,10 @@ const Project1 = () => {
                   mb="15px"
                   bg="Teal"
                 >
-                  Website
+                  <Flex gap={2}>
+                    <Text>Website</Text>
+                    <RiExternalLinkLine />
+                  </Flex>
                 </Button>
               </Link>
               <Link
@@ -333,8 +354,10 @@ const Project1 = () => {
                   ml="10px"
                   mb="15px"
                 >
-                  {" "}
-                  Github <Icon as={BsGithub} />
+                  <Flex gap={2}>
+                    <Text>Github</Text>
+                    <Icon as={BsGithub} />
+                  </Flex>
                 </Button>
               </Link>
             </div>

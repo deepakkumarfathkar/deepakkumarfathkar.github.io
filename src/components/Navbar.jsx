@@ -15,6 +15,7 @@ const Navbar1 = () => {
         left={0}
         bg="white"
         boxShadow="lg"
+        color={"black"}
       >
         <Flex
           w={["100%", "100%", "100%", "100%", "1100px"]}
@@ -27,6 +28,7 @@ const Navbar1 = () => {
             fontFamily={"Rancho, Sans-serif"}
             fontSize={["1.0rem", "0.8rem", "1.3rem"]}
             fontWeight={"bold"}
+            color={"black"}
           >
             Deepak Kumar Fathkar
           </Text>
@@ -45,6 +47,7 @@ const Navbar1 = () => {
               offset={-100}
               duration={700}
               className={styles.nav__link}
+              color={"black"}
             >
               Home
             </Link>
@@ -55,6 +58,7 @@ const Navbar1 = () => {
               offset={-100}
               duration={700}
               className={styles.nav__link}
+              color={"black"}
             >
               About Me
             </Link>
@@ -65,6 +69,7 @@ const Navbar1 = () => {
               offset={-100}
               duration={700}
               className={styles.nav__link}
+              color={"black"}
             >
               Skills
             </Link>
@@ -75,6 +80,7 @@ const Navbar1 = () => {
               offset={-100}
               duration={700}
               className={styles.nav__link}
+              color={"black"}
             >
               Projects
             </Link>
@@ -85,6 +91,7 @@ const Navbar1 = () => {
               offset={-100}
               duration={700}
               className={styles.nav__link}
+              color={"black"}
             >
               Github Stats
             </Link>
@@ -95,6 +102,7 @@ const Navbar1 = () => {
               offset={-100}
               duration={700}
               className={styles.nav__link}
+              color={"black"}
             >
               Contact
             </Link>
@@ -112,14 +120,13 @@ const Navbar1 = () => {
               display={["none", "block"]}
               py="0.5rem"
               borderRadius="5px"
-              bg="light.main"
-              color="dark"
+              color={"black"}
               fontSize={"1rem"}
               fontWeight={700}
             >
               <Flex align={"center"} gap={1} justify="center">
                 <DownloadIcon />
-                <Text>Resume</Text>
+                <Text color={"black"}>Resume</Text>
               </Flex>
             </a>
           </Flex>
