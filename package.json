@@ -4,6 +4,7 @@
   "homepage": "https://deepakkumarfathkar.github.io",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.4.6",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -22,6 +23,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-typist": "^2.0.5",
+    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
