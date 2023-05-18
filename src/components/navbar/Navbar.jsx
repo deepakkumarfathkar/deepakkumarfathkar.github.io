@@ -65,11 +65,11 @@ const Navbar = () => {
               <li>Contact</li>
             </Link>
             <a
-              href="https://drive.google.com/uc?export=download&id=1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR"
+              href="https://drive.google.com/uc?export=download&id=1He4KvwYyIXhui3MMVRpQl4gtzyd32mST"
               className="resume-btn"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR/view?usp=share_link"
+                  "https://drive.google.com/file/d/1He4KvwYyIXhui3MMVRpQl4gtzyd32mST/view?usp=share_link"
                 );
               }}
             >

@@ -29,11 +29,11 @@ const ProfileComponent = () => {
             className="resume"
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR/view?usp=share_link"
+                "https://drive.google.com/file/d/1He4KvwYyIXhui3MMVRpQl4gtzyd32mST/view?usp=share_link"
               );
             }}
           >
-            <a href="https://drive.google.com/uc?export=download&id=1xJzQsMlHgFG7D14iTEfV_gR0tKKDgBiR">
+            <a href="https://drive.google.com/uc?export=download&id=1He4KvwYyIXhui3MMVRpQl4gtzyd32mST">
               View Resume
             </a>
           </div>
