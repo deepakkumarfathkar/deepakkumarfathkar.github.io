@@ -108,11 +108,11 @@ const Navbar1 = () => {
             </Link>
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1QBVKuaLzaOSURb6EeUII8VNdTeZ8gRnc"
+              href="https://drive.google.com/uc?export=download&id=1He4KvwYyIXhui3MMVRpQl4gtzyd32mST"
               className="resume-btn"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1QBVKuaLzaOSURb6EeUII8VNdTeZ8gRnc/view?usp=sharing"
+                  "https://drive.google.com/file/d/1He4KvwYyIXhui3MMVRpQl4gtzyd32mST/view?usp=share_link"
                 );
               }}
               w={"150px"}
