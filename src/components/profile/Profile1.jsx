@@ -47,14 +47,14 @@ const Profile1 = () => {
               creating useful and interactive web applications.
             </Text>
             <VStack spacing={4} mt="4" alignItems={"flex-start"}>
-              <a href="https://drive.google.com/uc?export=download&id=1QBVKuaLzaOSURb6EeUII8VNdTeZ8gRnc">
+              <a href="https://drive.google.com/uc?export=download&id=1He4KvwYyIXhui3MMVRpQl4gtzyd32mST">
                 <Button
                   cursor={"pointer"}
                   colorScheme="teal"
                   size="lg"
                   onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/1QBVKuaLzaOSURb6EeUII8VNdTeZ8gRnc/view?usp=sharing"
+                      "https://drive.google.com/file/d/1He4KvwYyIXhui3MMVRpQl4gtzyd32mST/view?usp=share_link"
                     );
                   }}
                 >
